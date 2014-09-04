@@ -17,7 +17,7 @@ public class App {
 		IUser userDao = (IUser)appContext.getBean("userDao");
 		User u = new User();
 		u.setName("Akshay");
-		u.setAddress("pune");
+		u.setAddress("India");
 		String s = UUID.randomUUID().toString();
 		u.setEmailId("aks@pune"+s);
 		userDao.save(u);
