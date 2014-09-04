@@ -16,7 +16,7 @@ public class App {
 		    	  new ClassPathXmlApplicationContext("springBeans.xml");
 		IUser userDao = (IUser)appContext.getBean("userDao");
 		User u = new User();
-		u.setName("Akshay");
+		u.setName("Aks");
 		u.setAddress("India");
 		String s = UUID.randomUUID().toString();
 		u.setEmailId("aks@pune"+s);
